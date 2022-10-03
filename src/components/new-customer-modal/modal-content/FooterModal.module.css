@@ -1,0 +1,41 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 25rem;
+  margin-top: 40px;
+  font-family: "Manrope";
+	font-style: normal;
+	font-weight: 700;
+  color: #5d5970
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -10px;
+}
+
+.MuiSwitch-colorPrimary {
+  color: blue !important;
+}
+
+.toggle .Mui-checked {
+  background-color: blue !important;
+}

@@ -1,0 +1,8 @@
+.App {
+	background-color: #f5f7f9;
+	width: 100%;
+	min-height: 100vh;
+}
+.App > div {
+	padding: 1rem;
+}

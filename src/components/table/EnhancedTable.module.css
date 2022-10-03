@@ -1,0 +1,43 @@
+.tooltip {
+	top: -4.5rem !important;
+	left: 45% !important;
+	cursor: pointer;
+}
+.openModal {
+	padding: 0.7rem;
+	color: #fff;
+	font-size: 14px;
+}
+.tableBody {
+	position: relative;
+}
+.image {
+	border-radius: 50%;
+}
+.paginationWrapper {
+	flex-direction: row !important;
+	justify-content: space-between !important;
+	align-items: flex-end !important;
+	padding: 0 16px 16px 16px;
+	color: #72717e;
+}
+@media (max-width: 1500px) {
+	.tooltip {
+		left: 40% !important;
+	}
+}
+@media (max-width: 1200px) {
+	.tooltip {
+		left: 30% !important;
+	}
+}
+@media (max-width: 1000px) {
+	.tooltip {
+		left: 10% !important;
+	}
+}
+@media (max-width: 770px) {
+	.tooltip {
+		left: -20% !important;
+	}
+}

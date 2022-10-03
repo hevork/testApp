@@ -1,0 +1,27 @@
+.appBar{
+  background-color: #ffff !important;
+  border-bottom: 2px solid #f8f4fc;
+}
+.searchWrapper{
+  color: #e2e0e5 !important;
+}
+.inputSearch{
+  border: 2px solid #ecebed;
+  border-radius: 8px;
+  height: 56px;
+}
+.moreIcon{
+  color: #d1cfd8;
+}
+.toolbar{
+  height: 8rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.toolbar>div:first-child{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: flex-start;
+}

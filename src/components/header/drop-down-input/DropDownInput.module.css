@@ -1,0 +1,9 @@
+.autocomplete {
+	color: green !important;
+}
+
+@media (max-width: 770px) {
+	.autocompleteContainer {
+		display: none;
+	}
+}
